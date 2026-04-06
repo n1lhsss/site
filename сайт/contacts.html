@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Парикмахерская</title>
+    <link rel = "stylesheet" href="s:\ИСП131\Виноградова\ПРАКТИКА 9\сайт\style.css"/>
+</head>
+<body>
+    <script src="s:\ИСП131\Виноградова\ПРАКТИКА 9\сайт\script.js"></script>
+</body>
+</html>
+
+
+<body>
+    <header class="header">
+        <div class="container header__row">
+            <a class  = "brand" href = "index.html">
+                <img class = "brand__logo" src = "s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\вор.avif" alt="Логотип">
+                <div class = "brand__text">
+                    <span class = "brand__name">Чик-Чирик</span>
+                    <span class = "brand__tag">Парикмахерская</span>  
+                </div>
+            </a>
+            
+
+            <nav class = "nav">
+                <a class = "nav__link" href = "index.html">Главная</a>
+                <a class = "nav__link" href = "s:\ИСП131\Виноградова\ПРАКТИКА 9\сайт\about.html">О компании</a>
+                <a class = "nav__link" href = "services.html">Услуги</a>
+                <a class = "nav__link" href = "catalog.html">Каталог</a>
+                <a class = "nav__link" href = "s:\ИСП131\Виноградова\ПРАКТИКА 9\сайт\gallery.html">Галерея</a>
+                <a class = "nav__link" href = "blog.html">Блог</a>
+                <a class = "nav__link" href = "article.html">Страница статьи</a>
+                <a class = "nav__link" href = "team.html">Команда</a>
+                <a class = "nav__link" href = "reviews.html">Отзывы</a>
+                <a class = "nav__link nav__link--active" href = "contacts.html">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="container section">
+            <h1>Контакты</h1>
+            <p class="muted">
+                Запишитесь на процедуру.
+            </p>
+            <form>
+                <label for="name">Имя:</label> 
+                <input type="text" id="name" name="username" required> 
+                <br><br> 
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="useremail" required> 
+                <br><br>
+                <label for="review">Сообщение:</label>
+                <textarea id="review" name="review" rows="4" cols="50"> 
+
+                </textarea>
+                <br><br>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>

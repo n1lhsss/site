@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Парикмахерская</title>
+    <link rel = "stylesheet" href="s:\ИСП131\Виноградова\ПРАКТИКА 9\сайт\style.css"/>
+</head>
+<body>
+    <script src="s:\ИСП131\Виноградова\ПРАКТИКА 9\сайт\script.js"></script>
+</body>
+</html>
+
+
+<body>
+    <header class="header">
+        <div class="container header__row">
+            <a class  = "brand" href = "index.html">
+                <img class = "brand__logo" src = "s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\вор.avif" alt="Логотип">
+                <div class = "brand__text">
+                    <span class = "brand__name">Чик-Чирик</span>
+                    <span class = "brand__tag">Парикмахерская</span>  
+                </div>
+            </a>
+            
+
+            <nav class = "nav">
+                <a class = "nav__link" href = "index.html">Главная</a>
+                <a class = "nav__link" href = "s:\ИСП131\Виноградова\ПРАКТИКА 9\сайт\about.html">О компании</a>
+                <a class = "nav__link" href = "services.html">Услуги</a>
+                <a class = "nav__link" href = "catalog.html">Каталог</a>
+                <a class = "nav__link" href = "s:\ИСП131\Виноградова\ПРАКТИКА 9\сайт\gallery.html">Галерея</a>
+                <a class = "nav__link" href = "blog.html">Блог</a>
+                <a class = "nav__link" href = "article.html">Страница статьи</a>
+                <a class = "nav__link" href = "team.html">Команда</a>
+                <a class = "nav__link nav__link--active" href = "reviews.html">Отзывы</a>
+                <a class = "nav__link" href = "contacts.html">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+    <section class="container section">
+        <h1>Отзывы</h1>
+        <p class="muted">
+            Оставьте отзыв о нашей парикмахерской или, если у вас есть какие-либо вопросы, вым можете их задать.
+        </p>
+
+        <div class="grid-4">
+            <div class="card1">
+                <h2>Связаться</h2>
+                <form id="contactForm" class="form">
+                    <label>
+                        Имя
+                        <input name="name" type="text" placeholder="Например: Аня" required>
+                    </label>
+
+                    <label>
+                        Тема 
+                        <select name="topic" required>
+                            <option value="">Выберите_</option>
+                            <option>Вопрос</option>
+                            <option>Отзыв</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Сообщение
+                        <textarea name="message" rows="4" placeholder="Напишите сообщение_" required></textarea>
+                    </label>
+
+                    <button class="btn" type="submit">Сохранить сообщение</button>
+                    <button class="btn btn--ghost" id="clearMsgsBtn" type="button">Очистить</button>
+
+                </form>
+
+            </div>
+
+            <div class="card1">
+                <h2>Сохраненные сообщения</h2>
+                <div id="msgs" class="msgs muted">Пока пусто.</div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<footer class="footer">
+    <div class="container footer__row">
+        <div class="muted">© 2026 Чик-Чирик</div>
+    </div>
+</footer>
+

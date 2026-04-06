@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Парикмахерская</title>
+    <link rel = "stylesheet" href="s:\ИСП131\Виноградова\ПРАКТИКА 9\сайт\style.css"/>
+</head>
+
+</html>
+
+
+<body>
+    <header class="header">
+        <div class="container header__row">
+            <a class  = "brand" href = "index.html">
+                <img class = "brand__logo" src = "s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\вор.avif" alt="Логотип">
+                <div class = "brand__text">
+                    <span class = "brand__name">Чик-Чирик</span>
+                    <span class = "brand__tag">Парикмахерская</span>  
+                </div>
+            </a>
+            
+
+            <nav class = "nav">
+                <a class = "nav__link" href = "index.html">Главная</a>
+                <a class = "nav__link" href = "s:\ИСП131\Виноградова\ПРАКТИКА 9\сайт\about.html">О компании</a>
+                <a class = "nav__link" href = "services.html">Услуги</a>
+                <a class = "nav__link" href = "catalog.html">Каталог</a>
+                <a class = "nav__link nav__link--active" href = "s:\ИСП131\Виноградова\ПРАКТИКА 9\сайт\gallery.html">Галерея</a>
+                <a class = "nav__link" href = "blog.html">Блог</a>
+                <a class = "nav__link" href = "article.html">Страница статьи</a>
+                <a class = "nav__link" href = "team.html">Команда</a>
+                <a class = "nav__link" href = "reviews.html">Отзывы</a>
+                <a class = "nav__link" href = "contacts.html">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="container section">
+            <h1>Галерея</h1>
+
+            <div class="filters">
+                <button class="btn btn--ghost filterBtn" data-filter="all" type="button">Все</button>
+                <button class="btn btn--ghost filterBtn" data-filter="a" type="button">Стрижки</button>
+                <button class="btn btn--ghost filterBtn" data-filter="b" type="button">Окрашивания</button>
+                <button class="btn btn--ghost filterBtn" data-filter="c" type="button">Макияж</button>
+                <button class="btn btn--ghost filterBtn" data-filter="f" type="button">Маникюр</button>
+            </div>
+        </section>
+    </main>
+    
+    <body>
+        <div class="gallery" id="gallery">
+            
+            <figure class="gallery__item" data-cat="a">
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\бокс.jpg">
+                <figcaption class="muteded">Стрижка "Бокс"</figcaption>
+            </figure>
+            
+            <figure class="gallery__item" data-cat="a">
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\площад.jpg">
+                <figcaption class="muteded">Стрижка "Площадка"</figcaption>
+            </figure>
+            
+            <figure class="gallery__item" data-cat="a">
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\гав.jpg">
+                <figcaption class="muteded">Стрижка "Гаврош"</figcaption>
+            </figure>
+
+            <p> 
+                <div style="justify-content: center;">
+                    <br>
+                    <hr><hr>
+                    <br>
+                </div>
+            </p>
+
+            <figure class="gallery__item" data-cat="a">
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\пик.jpg">
+                <figcaption class="muteded">Стрижка "Пикси"</figcaption>
+            </figure>
+            <figure class="gallery__item" data-cat="a">
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\wolf.jpg">
+                <figcaption class="muteded">Стрижка "Wolf cut"</figcaption>
+            </figure>
+            <figure class="gallery__item" data-cat="a">
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\лис.jpg">
+                <figcaption class="muteded">Стрижка "Лисий хвост"</figcaption>
+            </figure>
+
+            <p> 
+                <div style="justify-content: center;">
+                    <br>
+                    <hr><hr>
+                    <br>
+                </div>
+            </p>
+        
+            <figure class="gallery__item" data-cat="b">
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\мел.jpg">
+                <figcaption class="muteded">Мелирование</figcaption>
+            </figure>
+            
+            <figure class="gallery__item" data-cat="b">
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\скр.jpg">
+                <figcaption class="muteded">Скрытое окрашивание</figcaption>
+            </figure>
+            
+            <figure class="gallery__item" data-cat="b">
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\кол.jpg">
+                <figcaption class="muteded">Колорирование</figcaption>
+            </figure>
+
+            <p> 
+                <div style="justify-content: center;">
+                    <br>
+                    <hr><hr>
+                    <br>
+                </div>
+            </p>
+
+            <figure class="gallery__item" data-cat="c">
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\смок.jpg">
+                <figcaption class="muteded">Смоки айз</figcaption>
+            </figure>
+            
+            <figure class="gallery__item" data-cat="c">
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\нюд.jpg">
+                <figcaption class="muteded">Нюдовый макияж</figcaption>
+            </figure>
+            
+            <figure class="gallery__item" data-cat="c">
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\свад.jpg">
+                <figcaption class="muteded">Свадебный макияж</figcaption>
+            </figure>
+
+            <p> 
+                <div style="justify-content: center;">
+                    <br>
+                    <hr><hr>
+                    <br>
+                </div>
+            </p>
+
+ 
+            <figure class="gallery__item" data-cat="f">  
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\яп.jpg">
+                <figcaption class="muteded">Японский маникюр</figcaption>
+            </figure>
+            
+            <figure class="gallery__item" data-cat="f">
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\лун.jpg">
+                <figcaption class="muteded">Лунный маникюр</figcaption>
+            </figure>
+            
+            <figure class="gallery__item" data-cat="f">
+                <img src="s:\ИСП131\Виноградова\ПРАКТИКА 9\картинки\кош.jpg">
+                <figcaption class="muteded">Маникюр кошачий глаз</figcaption>
+            </figure>
+
+            <p> 
+                <div style="justify-content: center;">
+                    <br>
+                    <hr><hr>
+                    <br>
+                </div>
+            </p>
+        </div>
+        
+        <div class="modal" id="modal" aria-hidden="true">
+            <div class="model__backdrop" id="modelBackdrop"></div>
+            <div class="modal__content" role="dialog" aria-modal="true">
+                <img id="modalImg" alt="Увеличенное изображение">
+                <button class="btn btn--ghost modal__close" id="modalClose" type="button">Закрыть</button>
+            </div>
+        </div>
+
+        <script src="s:\ИСП131\Виноградова\ПРАКТИКА 9\сайт\script.js"></script>
+    </body>
+
+    
+    <footer class="footer">
+        <div class="container footer__row">
+            <div class="muted">© 2026 Чик-Чирик</div>
+        </div>
+    </footer>
+</body>
